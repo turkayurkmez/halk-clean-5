@@ -12,11 +12,16 @@
         IList<T> GetAll();
         void Create(T entity);
 
-        IList<T> SearchByName(string name);
+
 
     }
 
-    public class ProductRepository : IRepository<Product>
+    public interface ISearchByName<T>
+    {
+        IList<T> SearchByName(string name);
+    }
+
+    public class ProductRepository : IRepository<Product>, ISearchByName<Product>
     {
         public void Create(Product entity)
         {
@@ -57,10 +62,7 @@
             return (IList<Comment>)list;
         }
 
-        public IList<Comment> SearchByName(string name)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 
 

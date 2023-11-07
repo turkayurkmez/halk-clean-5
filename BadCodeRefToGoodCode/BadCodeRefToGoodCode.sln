@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BadCode", "BadCode\BadCode.csproj", "{69BFB74A-0269-47A5-B4D5-ED2AA6242799}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoodCode", "GoodCode\GoodCode.csproj", "{ECC2B134-9480-4006-8499-7D7532629A3E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69BFB74A-0269-47A5-B4D5-ED2AA6242799}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69BFB74A-0269-47A5-B4D5-ED2AA6242799}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69BFB74A-0269-47A5-B4D5-ED2AA6242799}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69BFB74A-0269-47A5-B4D5-ED2AA6242799}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECC2B134-9480-4006-8499-7D7532629A3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECC2B134-9480-4006-8499-7D7532629A3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECC2B134-9480-4006-8499-7D7532629A3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECC2B134-9480-4006-8499-7D7532629A3E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF35512F-5CEB-4DA7-A690-9FC9D17BA889}
+	EndGlobalSection
+EndGlobal
